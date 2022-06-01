@@ -1,0 +1,91 @@
+/* Global Styles */
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background: #1F2937;
+    color: white;
+}
+
+.header {
+    margin: 80px 0 30px 30px;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.colored-text {
+    color: #10B981;
+}
+
+h3 {
+    font-size: 20px;
+    line-height:28px;
+}
+
+.generate-passwords {
+    color: #ffffff;
+    background: #10B981;
+    border: none;
+    border-radius: 6px;
+    padding:9px 17px 9px 15px;
+}
+
+.generate-passwords:hover {
+    background: #0e9568;
+
+}
+
+.slider-value {
+    margin: 10px 0;
+    display: block;
+
+}
+
+.slider-text {
+    margin: 5px 0 0 55px;
+}
+
+.div-divider {
+    border: 1px solid #2F3E53;
+    background: #2F3E53;
+}
+
+/* Password Input Section */
+
+.passwords {
+    margin:0 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+.password {
+    width: 98%;
+    text-align: center;
+    padding: 8px 0 8px 0;
+    margin: 5px 5px;
+    border-radius: 6px;
+    border: none;
+    background: #273549;
+    color: #55F991;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #202B3C;
+    opacity: 1;
+}
+
+input[type='text'] {
+    font-family: FontAwesome;
+}
