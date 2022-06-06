@@ -23,5 +23,15 @@ function generatePasswords() {
     for (let i=0; i<passwordInputs.length; i++) {
         passwordInputs[i].setAttribute("value", generatePasswordText());
     }
+}
 
+for (let i=0; i<passwordInputs.length; i++) {
+    passwordInputs[i].addEventListener('click', function() {
+        const newPass = this;
+        console.log(newPass);
+        newPass.select();
+        navigator.clipboard.writeText(newPass.value);
+        alert("Copied the text: " + newPass.value);
+
+    })
 }
